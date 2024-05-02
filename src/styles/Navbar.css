@@ -1,0 +1,9 @@
+.navbar {
+    background-color: blue;
+    color: white;
+    /* padding: 10px; */
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+  }
