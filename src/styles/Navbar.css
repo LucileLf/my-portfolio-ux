@@ -1,9 +1,70 @@
+
 .navbar {
-    background-color: blue;
-    color: white;
-    /* padding: 10px; */
     height: 10vh;
     width: 100vw;
-    position: absolute;
+    /* border: 1px solid black; */
+    background-color: transparent;
+    /* margin: 0 auto; */
+    color: white;
+    /* padding: 10px; */
+    position: sticky;
     top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    text-shadow: 0 0.1rem 0.2rem black;
+    transition: background-color 0.5s ease;
+
+}
+
+.scrolling {
+    background-color: #e6ebdfb9;
+    /* color:#3b0100e0; */
   }
+
+.navbar-links, .navbar-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar-links a, .navbar-socials li {
+    margin: 0 10px;
+    color: white;
+    
+}
+
+icon {
+    font-size: large;
+}
+
+li:hover {
+    cursor: pointer;
+    
+}
+
+.navbar-links a:hover {
+    /* font-size: larger;*/
+    color: white; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar-challenge-btn {
+    border: 1px solid #5f3f3e;
+    width: fit-content;
+    padding: 1vh;
+    border-radius: 2px;
+    transition: background-color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+.navbar-challenge-btn:hover {
+    background-color: #5f3f3e;   
+    color: aliceblue;
+    cursor: pointer;
+}

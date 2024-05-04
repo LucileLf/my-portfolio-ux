@@ -1,0 +1,5 @@
+.footer-container {
+    background-color: #e6ebdf;
+    display: flex;
+    flex-direction: row;
+}

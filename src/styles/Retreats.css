@@ -1,0 +1,63 @@
+.retreats-container{
+    color: #3D4435;
+    z-index: 1;
+    /* background-color: #CCCCC2; */
+    background-color: #CEDAC6;
+    /* background-color: #DBFFFF; */
+    /* position: absolute; */
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: 100vw;
+    margin-top: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.retreats-image {
+    width: 45vw;
+    height: fit-content;
+    padding: 4vh;
+    
+}
+
+.retreats-info {
+    width: 45vw;
+    height: fit-content;
+    padding: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.retreats-title, .retreats-subtitle {
+    text-align: left;
+    font-weight: 300;
+}
+
+.retreats-title {
+    /* margin-top: 10vh; */
+    font-size: x-large;
+    /* padding-left: 20vw;
+    padding-right: 10vw; */
+}
+
+.retreats-subtitle {
+}
+
+.retreat-btn {
+    border: 1px solid #59583A;
+    width: fit-content;
+    padding: 1vh;
+    border-radius: 2px;
+    transition: background-color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+.retreat-btn:hover {
+    background-color: #59583A;   
+    color: aliceblue;
+    cursor: pointer;
+}
