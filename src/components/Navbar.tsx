@@ -4,6 +4,7 @@ import '../styles/Navbar.css';
 import { ImInstagram } from "react-icons/im";
 import { ImFacebook } from "react-icons/im";
 import { SlSocialYoutube } from "react-icons/sl";
+// import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [scrolling, setScrolling] = useState(false);
@@ -25,31 +26,57 @@ const Navbar = () => {
         };
     }, []);
     
+
+    const scrollToSection = (section: string) => {
+        const domSection = document.getElementById(section);
+        if (domSection) {
+            window.scrollTo({
+                top: domSection.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    };
+
+
     return (
         <div className={`navbar ${scrolling ? 'scrolling' : ''}`}>
             <ul className='navbar-socials'>
-                <li><ImInstagram style={{ fontSize: '32px' }}/></li>
-                <li><ImFacebook style={{ fontSize: '32px' }}/></li>
-                <li><SlSocialYoutube style={{ fontSize: '32px' }}/></li>
+
+                <li>
+                    <a href="http://instagram.com" target='_blank'>
+                        <ImInstagram style={{ fontSize: '32px', color: 'white' }}/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://facebook.com" target='_blank'> 
+                        <ImFacebook style={{ fontSize: '32px', color: 'white'}}/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://youtube.com" target='_blank'>
+                        <SlSocialYoutube style={{ fontSize: '32px', color: 'white' }}/>
+                    </a>
+                </li>
+                
             </ul> 
             <ul className='navbar-links'>
                 <li>
-                    <a href="">home</a>
+                <a href='/'>accueil</a>
                 </li>
                 <li>
-                    <a href="">classes</a>
+                    <button onClick={(): void => scrollToSection('retreats')}>retraites</button>
                 </li>
                 <li>
-                    <a href="">retreats</a>
+                    <button onClick={(): void => scrollToSection('classes')}>cours</button>
                 </li>
                 <li>
-                    <a href="">calendar</a>
+                    <button>calendrier</button>
                 </li>
                 <li>
-                    <a href="">about</a>
+                    <a href='/about'>mon histoire</a>
                 </li>
             </ul>
-            <div className='navbar-challenge-btn'>30 day challenge</div> 
+            <div className='navbar-challenge-btn'>challenge 30 jours</div> 
         
         </div>
     )

@@ -1,0 +1,14 @@
+.about-body {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 0;
+    height: 10vh;
+    background-color: #CEDAC6;;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    /* width: 100vw;
+    height: 100vh;
+    font-size: larger;
+    overflow: scroll; */
+  }
+  

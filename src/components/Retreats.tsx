@@ -4,7 +4,7 @@ import '../styles/Retreats.css';
 
 const Retreats = () => {
     return (
-        <div className='retreats-container'>
+        <div className='retreats-container' id="retreats" >
             <img className='retreats-image' src={retreats} alt="" />
             <div className='retreats-info'>
                 <h1 className='retreats-title'>PARTICIPEZ A UNE RETRAITE</h1>

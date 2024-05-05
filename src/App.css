@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-.upper-body {
+.top-body {
   font-family: "Poppins", sans-serif;
   display: flex; 
   flex-direction: column;
@@ -16,7 +16,7 @@
   /* overflow: scroll; */
 }
 
-.upper-body::before {
+.top-body::before {
   content: "";
   position: absolute;
   top: 0;
@@ -27,6 +27,9 @@
   z-index: 1; /* Ensure the filter is above the background image */
 }
 
+.bottom-body {
+  width: 100vp;
+}
 .grass-img{
   width: 100vw;
   height: 40vh;

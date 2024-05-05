@@ -30,4 +30,5 @@
 .challenge-btn:hover {
     background-color: #3B0100;   
     color: aliceblue;
+    text-shadow: none
 }

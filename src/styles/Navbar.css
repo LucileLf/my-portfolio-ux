@@ -32,10 +32,13 @@
     list-style: none;
 }
 
-.navbar-links a, .navbar-socials li {
-    margin: 0 10px;
+.navbar-links button, .navbar-socials li, .navbar-links a  {
+    margin: 0 2vh;
     color: white;
-    
+    text-shadow: 0 0.1rem 0.2rem black;
+    background-color: transparent;
+    border-width: 0;
+    outline: none; 
 }
 
 icon {
@@ -44,14 +47,20 @@ icon {
 
 li:hover {
     cursor: pointer;
-    
 }
 
-.navbar-links a:hover {
+.navbar-links button:hover, .navbar-links li:hover, .navbar-links a:hover  {
     /* font-size: larger;*/
     color: white; 
     text-decoration: underline;
     cursor: pointer;
+    border-width: 0;
+}
+
+.navbar-links button:focus,
+.navbar-links button:active {
+    border-width: 0;
+    outline: none; 
 }
 
 .navbar-challenge-btn {

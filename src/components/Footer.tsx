@@ -8,27 +8,23 @@ const Footer = () => {
         <div className='footer-container'>
             <ul className='footer-links'>
                 <li>
-                    <a href="">home</a>
+                    <a href="">PRIVACY POLICY</a>
                 </li>
                 <li>
-                    <a href="">classes</a>
-                </li>
-                <li>
-                    <a href="">retreats</a>
-                </li>
-                <li>
-                    <a href="">calendar</a>
-                </li>
-                <li>
-                    <a href="">about</a>
+                    <a href="/terms-and-conditions">TERMS + CONDITIONS</a>
                 </li>
             </ul>
-            <div className='footer-challenge'>30 day challenge</div> 
-        
-            <ul className='footer-socials'>
-                <li><ImInstagram style={{ fontSize: '32px' }}/></li>
-                <li><ImFacebook style={{ fontSize: '32px' }}/></li>
-                <li><SlSocialYoutube style={{ fontSize: '32px' }}/></li>
+           
+            <ul className='footer-contact'>
+                <div className='contact'>
+                    <p>LE YOGA DE LILA</p>
+                    <p>info@yogadelila.com</p>
+                </div>
+                <div className='footer-socials'>
+                    <li><ImInstagram style={{ fontSize: '32px' }}/></li>
+                    <li><ImFacebook style={{ fontSize: '32px' }}/></li>
+                    <li><SlSocialYoutube style={{ fontSize: '32px' }}/></li>
+                </div>
             </ul> 
         </div>
     )

@@ -1,0 +1,28 @@
+.bio-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #CEDAC6; */
+    /* margin: 10vh 4vw; */
+}
+
+.bio-image {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* border: 1px solid pink */
+}
+
+.profile-image {
+    height: 68%;
+}
+
+
+.bio-text {
+    width: 50%;
+    /* border: 1px solid pink */
+}
