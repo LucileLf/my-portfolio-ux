@@ -1,14 +1,20 @@
 .about-body {
     font-family: "Poppins", sans-serif;
-    position: absolute;
-    top: 0;
-    height: 10vh;
-    background-color: #CEDAC6;;
+    /* position: absolute;
+    top: 0;*/
+    /* height: 100%;  */
     /* flex-direction: column; */
-    /* justify-content: flex-start; */
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: space-evenly; */
     /* width: 100vw;
     height: 100vh;
     font-size: larger;
     overflow: scroll; */
   }
   
+  .navbar-container {
+    height: fit-content;
+    background-color: #CEDAC6;
+    /* border: 1px solid re d; */
+  }

@@ -1,7 +1,7 @@
 import '../styles/Classes.css';
-import vinyasa from '../assets/vinyasa.jpg'; 
-import children from '../assets/children.jpg'; 
-import accro from '../assets/accro.jpg'; 
+import vinyasa from '@assets/vinyasa.jpg'; 
+import children from '@assets/children.jpg'; 
+import accro from '@assets/accro.jpg'; 
 
 import { useEffect, useState } from 'react';
 

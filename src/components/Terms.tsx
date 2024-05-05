@@ -1,6 +1,6 @@
-import React from 'react';
+// import React from 'react'; 
 import '../styles/Terms.css';
-import profile from '../assets/profile.png'; 
+// import profile from '../assets/profile.png'; 
 import Navbar from './Navbar'
 
 

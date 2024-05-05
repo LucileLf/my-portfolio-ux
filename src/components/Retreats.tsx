@@ -1,5 +1,5 @@
 // import React from 'react';
-import retreats from '../assets/retreats.jpg'; // Import the image
+import retreats from '@assets/retreats.jpg'; // Import the image
 import '../styles/Retreats.css';
 
 const Retreats = () => {
