@@ -69,14 +69,18 @@ const Navbar = () => {
                 <li>
                     <button onClick={(): void => scrollToSection('classes')}>cours</button>
                 </li>
-                <li>
+                {/* <li>
                     <button>calendrier</button>
-                </li>
+                </li> */}
                 <li>
                     <a href='/about'>mon histoire</a>
                 </li>
             </ul>
-            <div className='navbar-challenge-btn'>challenge 30 jours</div> 
+            <div className='navbar-challenge-btn'>
+                <a href="challenge">
+                    challenge 30 jours    
+                </a>    
+            </div> 
         
         </div>
     )

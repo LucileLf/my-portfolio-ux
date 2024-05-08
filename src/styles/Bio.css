@@ -20,6 +20,8 @@
 
 .profile-image {
     height: 68%;
+    width: 80%;
+    object-fit: cover;
 }
 
 

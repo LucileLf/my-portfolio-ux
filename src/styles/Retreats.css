@@ -1,14 +1,14 @@
 .retreats-container{
-    color: #3D4435;
+    color: #2A4C5E;
     z-index: 1;
-    /* background-color: #CCCCC2; */
-    background-color: #CEDAC6;
-    /* background-color: #DBFFFF; */
+    /* background-color: #b4c7d173; */
+    background-color: #8cabca48;
     /* position: absolute; */
     /* border: 1px solid black; */
-    height: fit-content;
-    width: 100vw;
-    margin-top: 100vh;
+    height: 65vh;
+    width: 96vw;
+    padding: 2vw;
+    /* margin-top: 100vh; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -16,20 +16,37 @@
 }
 
 
-.retreats-image {
+/* .retreats-image {
     width: 45vw;
     height: fit-content;
     padding: 4vh;
-    
+}
+*/
+
+.retreats-image {
+  display: flex;
+  align-items: center;
+  max-width: 45vw;
+  /* height: fit-content; */
+  max-height: 61vh;
+}
+
+.image {
+  /* width: 100%; */
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .retreats-info {
-    width: 45vw;
-    height: fit-content;
-    padding: 4vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  width: 50vw;
+  height: fit-content;
+  max-height: 61vh;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;;
+  overflow: hidden;
 }
 
 .retreats-title, .retreats-subtitle {
@@ -49,7 +66,7 @@
 }
 
 .retreat-btn {
-    border: 1px solid #59583A;
+    border: 1px solid #2A4C5E;
     width: fit-content;
     padding: 1vh;
     border-radius: 2px;
@@ -58,7 +75,7 @@
 }
 
 .retreat-btn:hover {
-    background-color: #59583A;   
+    background-color: #2A4C5E;
     color: aliceblue;
     cursor: pointer;
 }

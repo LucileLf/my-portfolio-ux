@@ -1,6 +1,6 @@
 // import React from 'react';
 import '../styles/Bio.css';
-import profile from '@assets/profile.png'; 
+import profile from '@assets/profile.jpg'; 
 
 
 const Bio = () => {

@@ -3,6 +3,7 @@
 import About from '@components/About.tsx'
 import Terms from '@components/Terms.tsx'
 import Home from '@components/Home.tsx'
+import Challenge from '@components/Challenge.tsx'
 // import Hero from '@components/Hero'
 // import Retreats from '@components/Retreats'
 // import Classes from '@components/Classes'
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/terms-and-conditions" element={<Terms />} />
+        <Route path="/challenge" element={<Challenge />} />
       </Routes>
     </Router>
 

@@ -1,4 +1,4 @@
-// import React from 'react';
+ 1// import React from 'react';
 import Navbar from './Navbar'
 // import Bio from './Bio'
 import '../styles/Home.css';
@@ -11,23 +11,24 @@ import '../styles/Home.css';
 function Home() {
 
   return (
-      <>
-        <div className='top-body'>
+      <div className='home-container'> {/* 305vh */}
+        <div className='navbar'> {/* 10vh */}
           <Navbar/>
+        </div>
+
+        <div className='home-top-body'> {/* 125vh */}
           <Hero/>
         </div>
-        <div className='bottom-body'>
-          <Retreats/>
-          
-          <div className='grass-img'>
+        <div className='home-bottom-body'> {/* 155vh */}
+          <Retreats/> {/* 65vh */}
+          <div className='grass-img'>{/* 40vh */}
             <p>LE YOGA A CHANGE MA VIE</p>
             <p>UN JOUR A LA FOIS...</p>
           </div>
-          <Classes/>
-          
-          <Footer/>
+          <Classes/> {/* 50vh */}
         </div>
-      </>
+        <Footer/> {/* 20vh */}
+      </div>
   )
 }
 

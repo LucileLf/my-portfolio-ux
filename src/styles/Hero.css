@@ -1,34 +1,51 @@
 .hero-container{
-    color: #3B0100;
-    text-shadow: 0 0.1rem 0.2rem rgb(255, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0.1rem 0.2rem black;
     z-index: 1;
     /* position: absolute; */
     margin-top: 10vh;
     /* height: auto; */
     /* border: 1px solid black; */
-    height: 90vh;
+    /* height: 90vh; */
+    text-align: right;
+    margin-right: 10vw;
+    /* border: 1px solid red; */
 }
 
 .titre {
-    margin-top: 10vh;
-    margin-left: 15%;
+    /* margin-top: 10vh; */
     /* text-align: center;
     padding-left: 20vw;
     padding-right: 10vw; */
 }
 .slogan {
-    margin-left: 15%;
+    /* margin-left: 15%; */
 }
 .challenge-btn {
-    border: 1px solid #3B0100;
+    border: 1px solid white;
     width: fit-content;
-    margin-left: 15%;
-    padding: 1vh;
+    padding: 1vw;
     border-radius: 2px;
+    margin-top: 1vh;
+}
+.challenge-btn a {
+    color: white;
+    text-shadow: 0 0.1rem 0.2rem black;
 }
 
+
 .challenge-btn:hover {
-    background-color: #3B0100;   
-    color: aliceblue;
+    background-color: white;   
+    color: black;
     text-shadow: none
+}
+
+.challenge-btn a:hover {
+    background-color: white; 
+    color: black;
+    text-shadow: none;
 }

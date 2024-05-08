@@ -5,7 +5,8 @@ import '../styles/Retreats.css';
 const Retreats = () => {
     return (
         <div className='retreats-container' id="retreats" >
-            <img className='retreats-image' src={retreats} alt="" />
+          {/* <div className='retreat-container'> */}
+
             <div className='retreats-info'>
                 <h1 className='retreats-title'>PARTICIPEZ A UNE RETRAITE</h1>
                 <h2 className='retreats-subtitle'>3 - 10 OCTOBRE</h2>
@@ -15,6 +16,8 @@ const Retreats = () => {
                 <div className='retreat-btn'>En savoir plus</div>
 
             </div>
+            <img className='retreats-image' src={retreats} alt="" />
+          {/* </div> */}
         </div>
     )
 }

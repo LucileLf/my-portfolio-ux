@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.challenge-container {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 210vh;
+}
+.challenge-top-body {
+    width: 100vw;
+    height: 100vh;
+    /* height: 2818px; */
+    flex: 0 0 auto;
+    background-image: url('@assets/challenge2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid green; */
+    /*
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    font-size: larger;
+    overflow: scroll; */
+}
+
+.challenge-sign-up {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0;*/
+    font-size: xx-large;
+    color: #FFFFFF;
+    text-shadow: 0 0.1rem 0.2rem black;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenge-bottom-body {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    height: 100vh;
+    width: 100vw;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000; */
+}
+
+
+
+.form-container{
+  /* flex: 1; */
+  flex: 0 0 30%;
+  padding: 2vh 2vh;
+}
+
+.faq-container {
+  flex: 0 0 70%;
+  padding: 1vh 2vh;
+}
+/* .challenge-top-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 15, 15, 0.3);
+  z-index: 1;
+} */
+
+.challenge-footer-body {
+  height: 20vh;
+  position: absolute;
+  bottom: 0;
+  /* border: 1px solid yellow; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  z-index: 10000;
+}
+
+
+.challenge-footer-body {
+  flex: 0 0 auto;
+  /* Add styles for your Footer */
+}

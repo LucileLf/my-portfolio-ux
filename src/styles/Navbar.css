@@ -1,12 +1,9 @@
-
+/*
 .navbar {
     height: 10vh;
     width: 100vw;
-    /* border: 1px solid black; */
     background-color: transparent;
-    /* margin: 0 auto; */
-    color: white;
-    /* padding: 10px; */
+    color: #FFFFFF;
     position: sticky;
     top: 0;
     display: flex;
@@ -20,9 +17,30 @@
 }
 
 .scrolling {
-    background-color: #e6ebdfb9;
-    /* color:#3b0100e0; */
-  }
+    background-color: #8cabca48;
+} */
+
+.navbar {
+  height: 10vh;
+  width: 100vw;
+  background-color: transparent;
+  color: #FFFFFF;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10000;
+  text-shadow: 0 0.1rem 0.2rem black;
+  transition: background-color 0.5s ease;
+}
+.scrolling {
+  background-color: #8cabca48;
+  background-color: #95aec7c5;
+  background-color: #2a4c5ebd;
+}
+
 
 .navbar-links, .navbar-socials {
     display: flex;
@@ -34,11 +52,11 @@
 
 .navbar-links button, .navbar-socials li, .navbar-links a  {
     margin: 0 2vh;
-    color: white;
+    color: #FFFFFF;
     text-shadow: 0 0.1rem 0.2rem black;
     background-color: transparent;
     border-width: 0;
-    outline: none; 
+    outline: none;
 }
 
 icon {
@@ -51,7 +69,7 @@ li:hover {
 
 .navbar-links button:hover, .navbar-links li:hover, .navbar-links a:hover  {
     /* font-size: larger;*/
-    color: white; 
+    color: #FFFFFF;
     text-decoration: underline;
     cursor: pointer;
     border-width: 0;
@@ -60,11 +78,13 @@ li:hover {
 .navbar-links button:focus,
 .navbar-links button:active {
     border-width: 0;
-    outline: none; 
+    outline: none;
 }
 
-.navbar-challenge-btn {
-    border: 1px solid #5f3f3e;
+.navbar-challenge-btn a {
+    color: #FFFFFF;
+    text-shadow: 0 0.1rem 0.2rem black;
+    border: 1px solid #FFFFFF;
     width: fit-content;
     padding: 1vh;
     border-radius: 2px;
@@ -72,8 +92,15 @@ li:hover {
     transition: color 0.2s ease;
 }
 
-.navbar-challenge-btn:hover {
-    background-color: #5f3f3e;   
-    color: aliceblue;
+.navbar-challenge-btn a {
+    transition: background-color 0.2s ease;
+    transition: color 0.2s ease;
+
+}
+
+.navbar-challenge-btn:hover, .navbar-challenge-btn a:hover {
+    background-color: #FFFFFF;
+    text-shadow: none;
+    color: black;
     cursor: pointer;
 }

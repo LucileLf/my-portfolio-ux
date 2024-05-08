@@ -1,11 +1,13 @@
 .classes-container{
-    color: #CEDAC6;
+    /* color: #CEDAC6; */
+    color: #2A4C5E;
     /* z-index: 1000; */
     /* background-color: #59583A; */
     /* background-color: #596B4C; */
     /* background-color: #5D6725; */
     /* background-color: #294122; */
-    background-color: #3D4435;
+    /* background-color: #3D4435; */
+    background-color: #8cabca48;
     /* position: absolute; */
     /* border: 1px solid black; */
     height: 50vh;
@@ -15,20 +17,20 @@
     justify-content: space-around;
     align-items: top;
     /* border: 1px solid yellow; */
-    margin: auto;
+    padding: auto;
     position: relative;
 }
 
 
 .arrows {
     position: absolute;
-    height: 50%;
-    transform: translateY(-100%); 
+    top: 133vh;
+    /* height: 50%;
+    transform: translateY(-100%);  */
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px dotted red; */
 
 }
 
@@ -37,10 +39,6 @@
     display: flex;
     flex-direction: row;
     width: 82%;
-    /* border: 1px solid red;  */
-    /* width: 33%; */
-    /* position: relative;  */
-    /* display: none; */
     padding: 4vh;
 }
 .classes-image {
@@ -69,14 +67,13 @@
 .prev, .next {
     cursor: pointer;
     /* margin-top: -22px; */
-    padding: 16px;
-    color: white;
+    padding: 1vw;
+    color: #2A4C5E;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    color: white;
     z-index: 99999999;
 }
 
@@ -86,11 +83,11 @@
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #2A4C5E;
+    color:aliceblue
 }
 
 .classes-title {
-    color: #CEDAC6;
     font-size: 15px;
     padding: 8px 12px;
     /* position: absolute; */
@@ -100,8 +97,7 @@
 }
 
 .classes-btn {
-    color: #CEDAC6;
-    border: 1px solid #CEDAC6;
+    border: 1px solid #2A4C5E;
     width: fit-content;
     /* margin-left: 20vw; */
     padding: 1vh;
@@ -111,10 +107,11 @@
 }
 
 .classes-btn:hover {
-    background-color: #CEDAC6;   
-    color: #3D4435;;
+    background-color: #2A4C5E;
+    color: aliceblue;
+    cursor: pointer;
 }
-  
+
   /* Number text (1/3 etc) */
   .numbertext {
     color: #f2f2f2;
@@ -127,7 +124,7 @@
   .classes-description {
 
   }
-  
+
   /* The dots/bullets/indicators */
   /* .dots {
     height: 10%;
@@ -144,20 +141,19 @@
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  } 
-  
+  }
+
   .active, .dot:hover {
     background-color: #717171;
   }*/
-  
+
   /* Fading animation */
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
+
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
   }
-

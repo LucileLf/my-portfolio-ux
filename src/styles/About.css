@@ -1,5 +1,6 @@
 .about-body {
     font-family: "Poppins", sans-serif;
+    height: 100vh;
     /* position: absolute;
     top: 0;*/
     /* height: 100%;  */
@@ -8,13 +9,12 @@
     align-items: center; */
     /* justify-content: space-evenly; */
     /* width: 100vw;
-    height: 100vh;
     font-size: larger;
     overflow: scroll; */
   }
-  
+
   .navbar-container {
     height: fit-content;
-    background-color: #CEDAC6;
+    background-color: #0c3348e0;
     /* border: 1px solid re d; */
   }
