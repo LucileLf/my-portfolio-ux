@@ -32,10 +32,11 @@ const Challenge = () => {
             </div>
             <Classes/>
              */}
-          </div>
-          <div className='challenge-footer-body'>  {/* 20vh */}
             <Footer/>
           </div>
+          {/* <Testimonies/> */}
+          {/* <div className='challenge-footer-body'>  20vh */}
+          {/* </div> */}
         </div>
     )
 }

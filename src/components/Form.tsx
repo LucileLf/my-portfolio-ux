@@ -23,6 +23,8 @@ const Form = () => {
 
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
+
+    console.warn("Thank you! Check your email inbox!")
     // Validate your form as needed
     // startGame(formState);
   };
