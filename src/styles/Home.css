@@ -4,10 +4,8 @@
   position: absolute;
   height: 307.5vh;
   top: 0;
-  width: 100w;
-}
-
-.home-content {
+  width: 100vw;
+  background-color: #8cabca48;
 }
 
 .home-top-body {

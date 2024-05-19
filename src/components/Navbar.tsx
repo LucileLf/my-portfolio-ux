@@ -25,9 +25,10 @@ const Navbar = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-    
+
 
     const scrollToSection = (section: string) => {
+      console.log('srolling to ', section)
         const domSection = document.getElementById(section);
         if (domSection) {
             window.scrollTo({
@@ -48,7 +49,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="http://facebook.com" target='_blank'> 
+                    <a href="http://facebook.com" target='_blank'>
                         <ImFacebook style={{ fontSize: '32px', color: 'white'}}/>
                     </a>
                 </li>
@@ -57,8 +58,8 @@ const Navbar = () => {
                         <SlSocialYoutube style={{ fontSize: '32px', color: 'white' }}/>
                     </a>
                 </li>
-                
-            </ul> 
+
+            </ul>
             <ul className='navbar-links'>
                 <li>
                 <a href='/'>accueil</a>
@@ -78,10 +79,10 @@ const Navbar = () => {
             </ul>
             <div className='navbar-challenge-btn'>
                 <a href="challenge">
-                    challenge 30 jours    
-                </a>    
-            </div> 
-        
+                  Challenge: 30 jours de yoga
+                </a>
+            </div>
+
         </div>
     )
 }

@@ -9,10 +9,12 @@ const Hero = () => {
             <div className='challenge-btn'>
                 <a href="/challenge">
                     Challenge: 30 jours de yoga
-                </a>            
+                </a>
             </div>
         </div>
     )
 }
 
 export default Hero;
+
+

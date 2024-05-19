@@ -25,7 +25,7 @@
   width: 100vw;
   background-color: transparent;
   color: #FFFFFF;
-  position: sticky;
+  position: fixed;
   top: 0;
   display: flex;
   flex-direction: row;
@@ -36,8 +36,10 @@
   transition: background-color 0.5s ease;
 }
 .scrolling {
-  background-color: #8cabca48;
+  /* background-color: #8cabca48;
   background-color: #95aec7c5;
+  background-color: #007CC9;
+  background-color: #86bcebab */
   background-color: #2a4c5ebd;
 }
 

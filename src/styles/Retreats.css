@@ -2,7 +2,7 @@
     color: #2A4C5E;
     z-index: 1;
     /* background-color: #b4c7d173; */
-    background-color: #8cabca48;
+    /* background-color: #8cabca48; */
     /* position: absolute; */
     /* border: 1px solid black; */
     height: 65vh;
@@ -64,7 +64,7 @@
 .retreats-subtitle {
     font-size: large;
 }
- 
+
 .retreat-btn {
     border: 1px solid #2A4C5E;
     width: fit-content;

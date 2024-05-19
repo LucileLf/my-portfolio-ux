@@ -6,9 +6,16 @@
     flex-direction: column;
     position: relative;
     height: 210vh;
+    overflow-x: hidden;
+    /* width: 100vw; */
 }
+
+.challenge-navbar{
+  position: fixed;
+}
+
 .challenge-top-body {
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     /* height: 2818px; */
     flex: 0 0 auto;
@@ -26,6 +33,7 @@
     width: 100vw;
     font-size: larger;
     overflow: scroll; */
+
 }
 
 .challenge-sign-up {
@@ -51,7 +59,8 @@
     flex-direction: row;
     /* border: 1px solid red; */
     height: 150vh;
-    width: 100vw;
+    /* height: auto; */
+    /* width: 100vw; */
     /* display: flex;
     flex-direction: row;
     justify-content: center;

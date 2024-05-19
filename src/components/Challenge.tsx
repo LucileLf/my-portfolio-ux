@@ -10,8 +10,10 @@ const Challenge = () => {
 
     return (
         <div className="challenge-container">
-          <div className='challenge-top-body'>  {/* 100vh */}
+          <div className="challenge-navbar">
             <Navbar/>
+          </div>
+          <div className='challenge-top-body'>  {/* 100vh */}
             <div className='challenge-sign-up'>
                 SCROLL DOWN TO SIGN UP
             </div>
