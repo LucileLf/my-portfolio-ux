@@ -5,7 +5,8 @@
   height: 307.5vh;
   top: 0;
   width: 100vw;
-  background-color: #8cabca48;
+  /* background-color: #8cabca48; */
+  background-color: var(--homebg);
 }
 
 .home-top-body {

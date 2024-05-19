@@ -1,6 +1,6 @@
 .classes-container{
     /* color: #CEDAC6; */
-    color: #2A4C5E;
+    color: var(--textcl)
     /* z-index: 1000; */
     /* background-color: #59583A; */
     /* background-color: #596B4C; */
@@ -68,7 +68,7 @@
     cursor: pointer;
     /* margin-top: -22px; */
     padding: 1vw;
-    color: #2A4C5E;
+    color: var(--textcl);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -83,7 +83,7 @@
 }
 
 .prev:hover, .next:hover {
-    background-color: #2A4C5E;
+    background-color: var(--textcl);
     color:aliceblue
 }
 
@@ -97,7 +97,7 @@
 }
 
 .classes-btn {
-    border: 1px solid #2A4C5E;
+    border: 1px solid var(--textcl);
     width: fit-content;
     /* margin-left: 20vw; */
     padding: 1vh;
@@ -107,7 +107,7 @@
 }
 
 .classes-btn:hover {
-    background-color: #2A4C5E;
+    background-color: var(--textcl);
     color: aliceblue;
     cursor: pointer;
 }

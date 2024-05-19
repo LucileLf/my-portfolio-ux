@@ -22,7 +22,7 @@
 .form-submit {
   margin-top: 16px; /* Adds space above the button */
   padding: 10px 20px;
-  background-color: #213547;
+  background-color: var(--footerbg);
   color: white;
   border: none;
   border-radius: 4px;
@@ -30,6 +30,6 @@
 }
 
 .form-submit:hover {
-  background-color: #213547c9;
+  background-color: var(--footerbgtrans);
   /* color: #213547; */
 }

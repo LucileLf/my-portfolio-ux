@@ -40,7 +40,7 @@
   background-color: #95aec7c5;
   background-color: #007CC9;
   background-color: #86bcebab */
-  background-color: #2a4c5ebd;
+  background-color: var(--navbarbg);
 }
 
 

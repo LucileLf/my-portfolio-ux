@@ -9,6 +9,7 @@ import Challenge from '@components/Challenge.tsx'
 // import Classes from '@components/Classes'
 // import Footer from '@components/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import "./App.css"
 
 function App() {
 
@@ -34,13 +35,13 @@ function App() {
     //   </div>
     //   <div className='bottom-body'>
     //     <Retreats/>
-        
+
     //     <div className='grass-img'>
     //       <p>LE YOGA A CHANGE MA VIE</p>
     //       <p>UN JOUR A LA FOIS...</p>
     //     </div>
     //     <Classes/>
-        
+
     //     <Footer/>
     //   </div>
     // </>

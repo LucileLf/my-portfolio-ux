@@ -5,7 +5,7 @@
   height: 20vh;
   margin: 0;
   /* background-color: #546428; */
-  background-color: #0c3348e0;
+  background-color: var(--footerbg);
   display: flex;
   flex-direction: row;
   justify-content: space-between;

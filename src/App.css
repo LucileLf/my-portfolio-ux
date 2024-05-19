@@ -1,2 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+:root {
+  --homebg: #8cabca48;
+  --navbarbg: #2a4c5ebd;
+  --footerbg: #0c3348e0;
+  --textcl: #2A4C5E;
+  --footerbgtrans: #2A4C5E;
+  /* --background: #F3EFE1;
+  --text-color: #555555;
+  --sand: #A87D5A;
+  --sand-light: #F3EFE1;
+  --leaf: #7A8A60;
+  --leaf-dark: #637743;
+  --title: rgb(53, 131, 30);
+  --category-title: #ffffff;
+  --navigation-text: #637743;
+  --ombre: rgba(160, 160, 160, 0.562);
+  --kaki: #454327; */
+}

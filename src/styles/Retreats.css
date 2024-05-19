@@ -1,5 +1,5 @@
 .retreats-container{
-    color: #2A4C5E;
+    color: var(--textcl);
     z-index: 1;
     /* background-color: #b4c7d173; */
     /* background-color: #8cabca48; */
@@ -66,7 +66,7 @@
 }
 
 .retreat-btn {
-    border: 1px solid #2A4C5E;
+    border: 1px solid var(--textcl);
     width: fit-content;
     padding: 1vh;
     border-radius: 2px;
@@ -75,7 +75,7 @@
 }
 
 .retreat-btn:hover {
-    background-color: #2A4C5E;
+    background-color: var(--textcl);
     color: aliceblue;
     cursor: pointer;
 }
