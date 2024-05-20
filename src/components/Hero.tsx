@@ -5,7 +5,7 @@ const Hero = () => {
         <div className='hero-container'>
             {/* <img className='hero-image' src="./assets/bakground.jpg" alt="" /> */}
             <h1 className='titre'>LE YOGA DE LILA</h1>
-            <p className='slogan'>"Trouvez l'harmonie intérieure avec notre yoga, une respiration à la fois."</p>
+            <p className='slogan'>"Trouvez l'harmonie intérieure avec le yoga, une respiration à la fois."</p>
             <div className='challenge-btn'>
                 <a href="/challenge">
                     Challenge: 30 jours de yoga
@@ -16,5 +16,3 @@ const Hero = () => {
 }
 
 export default Hero;
-
-
