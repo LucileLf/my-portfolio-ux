@@ -14,8 +14,15 @@ const Classes = () => {
 
     // Next/previous controls
     const plusSlides = (n: number) => {
-        setSlideIndex(prevIndex => prevIndex + n);
-    };
+      let newIndex = slideIndex + n;
+      if (newIndex > 3) {
+          newIndex = 1; // Wrap around to the first slide
+      } else if (newIndex < 1) {
+          newIndex = 3; // Wrap around to the last slide
+      }
+      setSlideIndex(newIndex);
+  };
+
 
     // Thumbnail image controls
     // const currentSlide = (n: number) => {
