@@ -1,17 +1,21 @@
-// import React from 'react'; 
+// import React from 'react';
 import '../styles/Terms.css';
-// import profile from '../assets/profile.png'; 
+import Footer from './Footer';
+// import profile from '../assets/profile.png';
 import Navbar from './Navbar'
 
+function Terms() {
 
-const Bio = () => {
-    return (
+  return (
+    <div className='terms-body'>
 
-        <div className='terms-container'>
-                        <Navbar/>
+      <div className='navbar-container'>
+        <Navbar/>
+      </div>
+                {/* <div className='terms-content'> */}
 
-                <h1>Conditions Générales d'Utilisation</h1>
-                <div>
+      <div className='terms-container'>
+      <h1 className='cgu-title'>Conditions Générales d'Utilisation</h1>
 <p>
 Bienvenue sur notre site de cours de yoga. Veuillez lire attentivement les présentes conditions générales d'utilisation avant d'accéder à nos services.
 </p>
@@ -70,17 +74,16 @@ En utilisant ce site, vous acceptez nos conditions générales d'utilisation. Si
 Date d'entrée en vigueur : [insérer la date]
 </p>
 
+      </div>
 
+      {/* <div className='terms-footer'> */}
 
+        <Footer/>
+      {/* </div> */}
+              {/* </div> */}
 
-
-
-
-
-                </div>
-*
-        </div>
-    )
+    </div>
+  )
 }
 
-export default Bio;
+export default Terms

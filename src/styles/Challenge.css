@@ -9,10 +9,10 @@
     overflow-x: hidden;
     /* width: 100vw; */
 }
-
+/*
 .challenge-navbar{
   position: fixed;
-}
+} */
 
 .challenge-top-body {
     /* width: 100vw; */
@@ -68,7 +68,10 @@
     z-index: 10000; */
 }
 
-
+.challenge-footer-container{
+  position: absolute;
+  bottom: 0;
+}
 
 .form-container{
   display: flex;

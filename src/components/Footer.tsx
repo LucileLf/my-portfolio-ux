@@ -8,13 +8,13 @@ const Footer = () => {
         <div className='footer-container'>
             <ul className='footer-links'>
                 <li>
-                    <a href="">PRIVACY POLICY</a>
+                    <a href="/privacy-policy">POLITIQUE DE CONFIDENTIALITÉ</a>
                 </li>
                 <li>
-                    <a href="/terms-and-conditions">TERMS + CONDITIONS</a>
+                    <a href="/terms-and-conditions">CONDITIONS GENERALES D'UTILISATION</a>
                 </li>
             </ul>
-           
+
             <ul className='footer-contact'>
                 <div className='contact'>
                     <p>LE YOGA DE LILA</p>
@@ -25,7 +25,7 @@ const Footer = () => {
                     <li><ImFacebook style={{ fontSize: '32px' }}/></li>
                     <li><SlSocialYoutube style={{ fontSize: '32px' }}/></li>
                 </div>
-            </ul> 
+            </ul>
         </div>
     )
 }

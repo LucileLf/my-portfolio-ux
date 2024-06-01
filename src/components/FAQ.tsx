@@ -14,7 +14,7 @@ Bienvenue! Ce cours a été conçu pour tous les niveaux, donc pas d'inquiétude
 COMMENT PUIS-JE VOIR LES VIDÉOS ?
 </h2>
 <p>
-Vous devrez vous inscrire ici. Après votre inscription, je vous enverrai un e-mail le premier jour avec un calendrier téléchargeable, qui inclura des liens vers les cours. Au fait — assurez-vous d'être abonné à ma chaîne Youtube, Yoga With Tim.
+Vous devrez vous inscrire ici. Après votre inscription, je vous enverrai un e-mail le premier jour avec un calendrier téléchargeable, qui inclura des liens vers les cours. Au fait — assurez-vous d'être abonné à ma chaîne Youtube, Le Yoga de Lila.
 </p>
 <h2>
 QUELLE EST LA DURÉE DES VIDÉOS ?

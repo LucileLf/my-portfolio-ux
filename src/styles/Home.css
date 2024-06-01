@@ -28,7 +28,10 @@
 }
 
 
-
+.home-footer-container{
+  position: absolute;
+  bottom: 0;
+}
 /* .navbar {
   height: 10vh;
   width: 100vw;

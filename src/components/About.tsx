@@ -11,11 +11,11 @@ function About() {
         <div className='about-body'>
           <div className='navbar-container'>
             <Navbar/>
-            
+
           </div>
             <Bio/>
             <Footer/>
-           </div>
+        </div>
   )
 }
 

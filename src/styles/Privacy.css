@@ -1,4 +1,4 @@
-.terms-body {
+.privacy-body {
 
     /* display: flex;
     position: absolute;
@@ -17,7 +17,7 @@
   /* flex: 1; */
 }
 
-.terms-content {
+.privacy-content {
   /* display: flex;
   flex: 1; */
   height: fit-content;
@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
 }
-.terms-container{
+.privacy-container{
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 4vh;
@@ -40,7 +40,7 @@
   flex: 1;*/
 }
 
-.terms-footer{
+.privacy-footer{
 
 }
 

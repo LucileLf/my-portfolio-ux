@@ -10,12 +10,12 @@ const Challenge = () => {
 
     return (
         <div className="challenge-container">
-          <div className="challenge-navbar">
+          {/* <div className="challenge-navbar"> */}
             <Navbar/>
-          </div>
+          {/* </div> */}
           <div className='challenge-top-body'>  {/* 100vh */}
             <div className='challenge-sign-up'>
-                SCROLL DOWN TO SIGN UP
+            Défilez vers le bas pour vous inscrire
             </div>
 
           </div>
@@ -34,7 +34,9 @@ const Challenge = () => {
             </div>
             <Classes/>
              */}
-            <Footer/>
+             <div className="challenge-footer-container">
+                <Footer/>
+             </div>
           </div>
           {/* <Testimonies/> */}
           {/* <div className='challenge-footer-body'>  20vh */}

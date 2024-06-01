@@ -47,7 +47,7 @@ const Classes = () => {
 
     return (
         <>
-            <div className='classes-container' id="classes" >
+            <div className='classes-container'>
 
                 <div className="mySlides fade">
                     <div className='classes-image'>
