@@ -37,7 +37,7 @@ function Privacy() {
         </p>
 
         <h2>VOS DROITS</h2>
-        <p>Si vous êtes résident de l'EEE, vous avez le droit d'accéder, de corriger, de mettre à jour ou de supprimer vos Informations Personnelles. Si vous souhaitez exercer ces droits, veuillez nous contacter à <a href="mailto:stacy@timsenesi.com">stacy@timsenesi.com</a>.</p>
+        <p>Si vous êtes résident de l'EEE, vous avez le droit d'accéder, de corriger, de mettre à jour ou de supprimer vos Informations Personnelles. Si vous souhaitez exercer ces droits, veuillez nous contacter à <a href="mailto:info@yogadelila.com">info@yogadelila.com</a>.</p>
 
         <h2>COOKIES</h2>
         <p>Nous utilisons des cookies pour améliorer votre expérience de navigation. Vous pouvez contrôler et gérer les cookies via les paramètres de votre navigateur. Pour plus d'informations, visitez <a href="http://www.allaboutcookies.org">www.allaboutcookies.org</a>.</p>
@@ -46,7 +46,7 @@ function Privacy() {
         <p>Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autre pour refléter les changements dans nos pratiques ou pour des raisons opérationnelles, légales ou réglementaires.</p>
 
         <h2>CONTACT</h2>
-        <p>Pour toute question, veuillez nous contacter à <a href="mailto:stacy@yogalila.com">stacy@yogalila.com</a></p>
+        <p>Pour toute question, veuillez nous contacter à <a href="mailto:info@yogalila.com">info@yogalila.com</a></p>
       </div>
 
       <Footer />

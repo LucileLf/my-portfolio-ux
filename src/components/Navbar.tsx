@@ -7,6 +7,7 @@ import { SlSocialYoutube } from "react-icons/sl";
 
 const Navbar = () => {
     const [scrolling, setScrolling] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -24,6 +25,11 @@ const Navbar = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
+    const toggleMenu = () => {
+      setIsOpen(!isOpen);
+  };
+
 
     const scrollToSection = (section: string) => {
       console.log(`scrolling to ${section}`);
@@ -87,6 +93,35 @@ const Navbar = () => {
                   Challenge: 30 jours de yoga
                 </a>
             </div>
+
+
+
+            <div className="hamburger-menu" onClick={toggleMenu}>
+                &#9776; {/* This represents the hamburger icon */}
+            </div>
+            {isOpen && (
+                <div className="mobile-nav">
+                    <a href="/" onClick={toggleMenu}>accueil</a>
+                    {/* <a href="/services" onClick={toggleMenu}>retraites</a>
+                    <a href="/contact" onClick={toggleMenu}>cours</a> */}
+                    <a href="/about" onClick={toggleMenu}>mon histoire</a>
+                    <a href="/privacy-policy" onClick={toggleMenu}>politique de confidentialité</a>
+                    <a href="/terms-and-conditions" onClick={toggleMenu}>conditions générales d'utilisation</a>
+                    <div className='mobile-nav-socials'>
+                        <li><ImInstagram style={{ fontSize: '32px' }}/></li>
+                        <li><ImFacebook style={{ fontSize: '32px' }}/></li>
+                        <li><SlSocialYoutube style={{ fontSize: '32px' }}/></li>
+                    </div>
+                    <a href="mailto:info@yogadelila.com">info@yogadelila.com</a>
+
+                </div>
+            )}
+
+            <div className="title">
+              <p>LE YOGA DE LILA</p>
+            </div>
+
+
         </div>
     );
 };

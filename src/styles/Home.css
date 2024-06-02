@@ -86,3 +86,11 @@
 .grass-img p {
   margin: 0;
 }
+
+
+@media (max-width: 767px) {
+  .grass-img p {
+    margin: 0;
+    font-size: x-large;
+  }
+}

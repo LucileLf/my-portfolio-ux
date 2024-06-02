@@ -57,3 +57,12 @@
     align-items: center;
     list-style: none;
 }
+
+
+
+@media (max-width: 767px) {
+
+  .footer-container{
+    display: none
+  }
+}

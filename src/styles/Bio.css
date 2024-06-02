@@ -29,3 +29,32 @@
     width: 50%;
     /* border: 1px solid pink */
 }
+
+@media (max-width: 767px) {
+
+  .bio-container{
+    flex-direction: column;
+    height: auto;
+  }
+  .bio-image {
+    width: 80%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 100%; */
+    /* border: 1px solid pink */
+}
+
+.profile-image {
+    /* height: 68%; */
+    width: 100%;
+    object-fit: cover;
+}
+
+.bio-text {
+  width: 80%;
+}
+.bio-text h1 {
+  font-size: large;
+}
+}

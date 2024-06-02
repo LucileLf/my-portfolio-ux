@@ -79,3 +79,38 @@
     color: aliceblue;
     cursor: pointer;
 }
+
+
+
+@media (max-width: 767px) {
+
+  .retreats-container{
+    color: var(--textcl);
+    z-index: 1;
+    /* background-color: #b4c7d173; */
+    /* background-color: #8cabca48; */
+    /* position: absolute; */
+    /* border: 1px solid black; */
+    /* height: 65vh; */
+    height: auto;
+    width: 96vw;
+    padding: 2vw;
+    /* margin-top: 100vh; */
+    /* display:inline-block; */
+display: flex;
+flex-direction: column-reverse;
+
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+  }
+
+
+  .retreats-info{
+    width: 100%;
+  }
+  .retreats-image{
+    width: 100%;
+    max-width: 100%;
+  }
+}

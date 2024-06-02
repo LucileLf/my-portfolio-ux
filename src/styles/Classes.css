@@ -157,3 +157,52 @@
     from {opacity: .4}
     to {opacity: 1}
   }
+
+
+
+@media (max-width: 767px) {
+
+  .classes-container{
+    color: var(--textcl);
+    z-index: 1;
+    /* background-color: #b4c7d173; */
+    /* background-color: #8cabca48; */
+    /* position: absolute; */
+    /* border: 1px solid black; */
+    /* height: 65vh; */
+    height: auto;
+    width: 96vw;
+    padding: 2vw;
+
+    /* margin-top: 100vh; */
+    /* display:inline-block; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+  }
+
+
+  .classes-info{
+    width: 100%;
+  }
+  .classes-image{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .mySlides {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.arrows{
+position: absolute;
+height: 20%;
+display: flex;
+align-items: center;
+}
+
+.arrows a {
+  z-index: 1111111;
+}
+}

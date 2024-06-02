@@ -13,7 +13,6 @@ function Terms() {
         <Navbar/>
       </div>
                 {/* <div className='terms-content'> */}
-
       <div className='terms-container'>
       <h1 className='cgu-title'>Conditions Générales d'Utilisation</h1>
 <p>
