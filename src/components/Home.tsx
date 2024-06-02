@@ -21,9 +21,8 @@ function Home() {
   }, []);
   return (
       <div className='home-container'> {/* 305vh */}
-        <div className='navbar'> {/* 10vh */}
-          <Navbar/>
-        </div>
+      
+          <Navbar/>{/* 10vh */}
 
         <div className='home-top-body'> {/* 125vh */}
           <Hero/>

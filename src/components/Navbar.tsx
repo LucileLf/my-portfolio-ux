@@ -102,8 +102,7 @@ const Navbar = () => {
             {isOpen && (
                 <div className="mobile-nav">
                     <a href="/" onClick={toggleMenu}>accueil</a>
-                    {/* <a href="/services" onClick={toggleMenu}>retraites</a>
-                    <a href="/contact" onClick={toggleMenu}>cours</a> */}
+                    <a href="/challenge" onClick={toggleMenu}>challenge</a>
                     <a href="/about" onClick={toggleMenu}>mon histoire</a>
                     <a href="/privacy-policy" onClick={toggleMenu}>politique de confidentialité</a>
                     <a href="/terms-and-conditions" onClick={toggleMenu}>conditions générales d'utilisation</a>

@@ -85,6 +85,23 @@
   padding: 1vh 2vh;
 
 }
+
+@media (max-width: 767px) {
+  .challenge-top-body{
+    justify-content: flex-start;
+    padding-top: 20vh;
+  }
+  .challenge-sign-up {
+    width: 96%;
+    text-align: center;;
+    justify-content: flex-start;
+  }
+
+  .challenge-bottom-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* .challenge-top-body::before {
   content: "";
   position: absolute;
