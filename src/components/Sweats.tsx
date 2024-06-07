@@ -22,13 +22,8 @@ const Sweats = () => {
 
 
         <section id="sweats">
-          {/* <p className="section__text__p1">Browse My Recent</p> */}
           <h1 className="title">NutriVoice</h1>
-
-          {/* <a href="./1"> */}
-          {/* <div className="projects-container"> */}
             <div className="show-details">
-              {/* <img src={croissants} alt="Un aperçu de l'application" className="show-img" /> */}
                 <h2 className="show-title">Rôle </h2>
                   <p className='show-details-content'>Designer UX de la conception à la livraison </p>
 
@@ -52,11 +47,14 @@ const Sweats = () => {
                 <h2 className="show-title">Le public ciblé</h2>
                 <p className='show-details-content'>
                   J'ai mené des entretiens et créé des cartes d'empathie pour comprendre les utilisateurs pour lesquels nous concevons le site web et leurs besoins. Grâce à la recherche, nous avons identifié deux groupes d‘utilisateurs principaux :
-                  <ul className="show-list">
+                </p>  
+                <ul className="show-list">
                     <li> des jeunes professionnels qui cherchent des vêtements uniques</li>
                     <li>des amateurs de mode qui aiment personnaliser leurs habits.</li>
                   </ul>
-                  Nos recherches ont confirmé les hypothèses initiales concernant nos utilisateurs et ont mis en lumière l’importance de garantir un processus de personnalisation facile et intuitif. Il est également ressorti une volonté de transparence sur les techniques de personnalisation disponibles.                </p>
+                  <p className='show-details-content'>
+                  Nos recherches ont confirmé les hypothèses initiales concernant nos utilisateurs et ont mis en lumière l’importance de garantir un processus de personnalisation facile et intuitif. Il est également ressorti une volonté de transparence sur les techniques de personnalisation disponibles.                
+                  </p>
 
                 <h2 className="show-title">Difficultés et contraintes</h2>
                 <p className='show-details-content'>
@@ -64,7 +62,6 @@ const Sweats = () => {
                 </p>
 
                 <h2 className="show-title">Etude de recherche: Optimisation de l'expérience utilisateur pour une de personnalisation et commande de sweat shirts</h2>
-                <p className='show-details-content'>
                   <h3 className="show-subtitle">Objectifs</h3>
                   <ul className="show-list">
                     <li>Identifier les principaux points de friction dans le parcours utilisateur.</li>
@@ -95,7 +92,7 @@ const Sweats = () => {
                       </ul>
                     </li>
                   </ul>
-                </p>
+                
 
                 <h2 className="show-title">Le concept de design initial</h2>
                 <div className="wireframes-container">
@@ -115,8 +112,6 @@ const Sweats = () => {
                 <a target='_blank' href="https://www.figma.com/proto/WqHfKEdo2ex30SA8gqSCmF/Untitled?node-id=6-5&t=wVYnl4fwiXC6VGhG-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=6%3A5">Lien vers le prototype basse fidelité</a>
                             
                 <h2 className="show-title">Résultats des tests utilisateur</h2>
-                <p className='show-details-content'>
-                </p>
                 <ul className="show-list">
                   <li>Les utilisateurs trouvent les processus de personnalisation existants trop complexes et longs.</li>
                   <li>Les options de personnalisation sont souvent limitées sur les sites existants.</li>
@@ -157,13 +152,11 @@ const Sweats = () => {
                 </p>
 
                 <h3 className="show-subtitle">Prochaines étapes</h3>
-                <p className='show-details-content'>
                 <ul className="show-list">
                   <li>Effectuer une autre série d'études d’utilisabilité pour valider si les problèmes rencontrés par les utilisateurs ont été efficacement résolus.</li>
                   <li>Réaliser davantage de recherches utilisateur afin de déterminer de nouveaux besoins éventuels.</li>
                   <li>Implémenter les recommandations issues des nouvelles études et recherches pour améliorer continuellement l'expérience de l'application.</li>
                 </ul>
-                </p>
               
             </div>
         </section>

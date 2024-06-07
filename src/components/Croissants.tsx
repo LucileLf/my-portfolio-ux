@@ -25,13 +25,9 @@ const Croissants = () => {
 
 
         <section id="croissants">
-          {/* <p className="section__text__p1">Browse My Recent</p> */}
           <h1 className="title">Vite, des croissants!</h1>
 
-          {/* <a href="./1"> */}
-          {/* <div className="projects-container"> */}
             <div className="show-details">
-              {/* <img src={croissants} alt="Un aperçu de l'application" className="show-img" /> */}
                 <h2 className="show-title">Rôle </h2>
                   <p className='show-details-content'>Designer UX de la conception à la livraison </p>
 
@@ -54,12 +50,12 @@ const Croissants = () => {
                 <h2 className="show-title">Le public ciblé</h2>
                 <p className='show-details-content'>
                   J'ai mené des entretiens et créé des cartes d'empathie pour comprendre les utilisateurs pour lesquels nous concevons l'application et leurs besoins. Grâce à la recherche, nous avons identifié 2 groupes d‘utilisateurs principaux: 
+                </p>
                   <ul className="show-list">
                     <li>les parents qui souhaitent faire profiter des produits de boulangerie à leurs enfants mais ne peuvent pas se rendre en magasin</li>
                     <li>les jeunes actifs pressés qui cherchent à gagner du temps au moment des repas.</li>
                   </ul>
                   Nos recherches ont confirmé les hypothèses initiales concernant nos utilisateurs, et ont mis en lumière l’importance de garantir un processus de commande facile et rapide. Il est également ressorti une volonté de transparence quant aux ingrédients présents dans les produits.
-                </p>
 
                 <h2 className="show-title">Difficultés et contraintes</h2>
                 <p className='show-details-content'>
@@ -73,7 +69,6 @@ const Croissants = () => {
                 </p>
 
                 <h2 className="show-title">Etude de recherche: Optimisation de l'expérience utilisateur pour une application de commande en boulangerie</h2>
-                <p className='show-details-content'>
                   <h3 className="show-subtitle">Objectifs</h3>
                   <ul className="show-list">
                     <li>Identifier les principaux points de friction dans le parcours utilisateur.</li>
@@ -105,7 +100,6 @@ const Croissants = () => {
                       </ul>
                     </li>
                   </ul>
-                </p>
 
                 <h2 className="show-title">Le concept de design initial: storyboard close-up</h2>
                   <img src={storyboard} alt="Un aperçu de l'application" className="storyboard-img" />
@@ -159,13 +153,11 @@ const Croissants = () => {
                 </p>
 
                 <h3 className="show-subtitle">Prochaines étapes</h3>
-                <p className='show-details-content'>
                 <ul className="show-list">
                   <li>Effectuer une autre série d'études d’utilisabilité pour valider si les problèmes rencontrés par les utilisateurs ont été efficacement résolus.</li>
                   <li>Réaliser davantage de recherches utilisateur afin de déterminer de nouveaux besoins éventuels.</li>
                   <li>Implémenter les recommandations issues des nouvelles études et recherches pour améliorer continuellement l'expérience de l'application.</li>
                 </ul>
-                </p>
               
             </div>
         </section>

@@ -52,25 +52,25 @@ const Nutrition = () => {
 
                 <h2 className="show-title">Le public ciblé</h2>
                 <p className='show-details-content'>
-                J'ai mené des entretiens et créé des cartes d'empathie pour comprendre les utilisateurs pour lesquels nous concevons l'application et leurs besoins. Grâce à la recherche, nous avons identifié 2 groupes d‘utilisateurs principaux:
+                J'ai mené des entretiens et créé des cartes d'empathie pour comprendre les utilisateurs pour lesquels nous concevons l'application et leurs besoins. Grâce à la recherche, nous avons identifié 2 groupes d‘utilisateurs principaux:  </p>
             <ul className="show-list">
               <li>Les personnes aveugles qui souhaitent suivre et améliorer leur nutrition de manière autonome.</li>
               <li>Les aidants et professionnels de la santé qui assistent les personnes aveugles dans leurs démarches nutritionnelles.</li>
             </ul>
-                </p>
+              
 
                 <h2 className="show-title">Difficultés et contraintes</h2>
                 <p className='show-details-content'>
-                Les utilisateurs ont les difficultés suivantes:
+                Les utilisateurs ont les difficultés suivantes:  </p>
                   <ul className="show-list">
                     <li>la navigation dans l'interface de l'application</li>
                     <li>difficultés à enregistrer avec précision leurs repas et à comprendre les informations nutritionnelles en raison du manque de retours audio dans les solutions existantes</li>
                   </ul>
+                <p className='show-details-content'>
                 De nombreuses applications de coaching nutritionnel ne sont pas accessibles aux utilisateurs malvoyants, créant une barrière significative pour obtenir des conseils nutritionnels personnalisés et suivre les habitudes alimentaires. NutriVision vise à combler cette lacune en fournissant une solution entièrement accessible qui répond aux besoins uniques des utilisateurs aveugles.
                 </p>
 
                 <h2 className="show-title">Etude de recherche: Optimisation de l'expérience utilisateur pour une application de coaching nutrition pour des personnes aveugles</h2>
-                <p className='show-details-content'>
                   <h3 className="show-subtitle">Objectifs</h3>
                   <ul className="show-list">
                   <li>Identifier les principaux points de friction dans le parcours utilisateur.</li>
@@ -101,7 +101,6 @@ const Nutrition = () => {
                 </ul>
               </li>
                   </ul>
-                </p>
 
                 <h2 className="show-title">Le concept de design initial</h2>
                 <div className="wireframes-container">
@@ -152,13 +151,12 @@ const Nutrition = () => {
                 </p>
 
                 <h3 className="show-subtitle">Prochaines étapes</h3>
-                <p className='show-details-content'>
                 <ul className="show-list">
                   <li>Concevoir des designs pour les autres supports (tablette et ordinateur).</li>
                   <li>Obtenir les retours des utilisateurs sur notre nouveau prototype</li>
                   <li>Faire le design hand-off avec les développeurs frontend.</li>
                 </ul>
-                </p>
+                
               
             </div>
         </section>

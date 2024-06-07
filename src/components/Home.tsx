@@ -72,7 +72,7 @@ function Home() {
               perdre de temps.</p>
 
 
-              <a className="arrow-img">&#10095;</a>
+              <p className="arrow-img">&#10095;</p>
             </div>
           </div>
         {/* </div> */}
@@ -89,7 +89,7 @@ function Home() {
               </p>
             </div>
           </div>
-        {/* </div> */}
+          <p className="arrow-img">&#10095;</p>
         </a>
 
 
@@ -105,34 +105,10 @@ function Home() {
               </p>
             </div>
           </div>
-        {/* </div> */}
+          <p className="arrow-img">&#10095;</p>
         </a>
       </section>
 
-      {/* <footer id="contact">
-        <h1 className="title">Contact</h1>
-        <div className="contact-container">
-          <div className="contact-details">
-            <p className="contact-detail">Email: lucile.lefebvre@example.com</p>
-            <p className="contact-detail">Phone: +33 1 23 45 67 89</p>
-            <p className="contact-detail">Location: Marseille, France</p>
-          </div>
-          <div className="social-links">
-            <img
-              src="./assets/linkedin.png"
-              alt="LinkedIn"
-              className="icon"
-              onClick={() => window.open('https://www.linkedin.com/in/lucilelefebvre/', '_blank')}
-            />
-            <img
-              src="./assets/github.png"
-              alt="GitHub"
-              className="icon"
-              onClick={() => window.open('https://github.com/LucileLf', '_blank')}
-            />
-          </div>
-        </div>
-      </footer> */}
     </div>
   );
 };
