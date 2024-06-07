@@ -88,12 +88,12 @@ function Home() {
             <img src={sweat} alt="un aperçu du site" className="project-img" />
             <div className="project-title-div">
               <h2 className="project-title">SweatCraft</h2>
-              <p className="pproject-description">
+              <p className="project-description">
                 SweatCraft est un site web spécialisé dans la personnalisation et la commande de sweat-shirts. Il offre une large gamme de modèles, de couleurs, et de techniques de personnalisation, y compris la broderie et l'impression spéciale. 
               </p>
+            <p className="arrow-img">&#10095;</p>
             </div>
           </div>
-          <p className="arrow-img">&#10095;</p>
         </a>
 
 
@@ -107,9 +107,9 @@ function Home() {
               <p className="project-description">
               NutriVoice est une application de coaching nutritionnel conçue spécifiquement pour les utilisateurs aveugles et malvoyants. Elle utilise des commandes vocales et des retours audio pour fournir des plans de repas personnalisés, suivre l'apport nutritionnel et offrir des conseils éducatifs. Les utilisateurs ciblés sont les individus ayant une déficience visuelle cherchant à maintenir ou améliorer leur santé nutritionnelle grâce à une plateforme accessible et conviviale.
               </p>
+              <p className="arrow-img">&#10095;</p>
             </div>
           </div>
-          <p className="arrow-img">&#10095;</p>
         </a>
       </section>
 
