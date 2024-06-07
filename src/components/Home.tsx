@@ -7,7 +7,8 @@ import profile from '../assets/dev.jpeg'
 import croissants from '../assets/croissants.png'
 import sweat from '../assets/sweat.png'
 import nutrition from '../assets/nutrition.png'
-import linkedin from "..//assets/linkedin.png"
+import cv from '../assets/CV_Lucile_Lefebvre.pdf'
+import linkedin from "../assets/linkedin.png"
 // import arrow from '../assets/arrow.png'
 
 function Home() {
@@ -29,16 +30,19 @@ function Home() {
           <div className="btn-container">
             <button
               className="profile-btn"
-              onClick={() => window.open('./assets/CV_Lucile_Lefebvre.pdf', '_blank')}
+              onClick={() => window.open(cv, '_blank')}
             >
               Download CV
             </button>
-            <button
+
+            {/* <button
               className="profile-btn"
               onClick={() => (window.location.href = './#contact')}
-            >
-              Contact Info
-            </button>
+            > */}
+                        <p>
+            <a className="profile-btn" href="mailto:lucile.c.lefebvre@gmail.com"> Contact Info</a></p>
+             
+            {/* </button> */}
             <img
               src={linkedin}
               alt="My LinkedIn profile"

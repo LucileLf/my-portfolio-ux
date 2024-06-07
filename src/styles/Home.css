@@ -178,6 +178,7 @@ section {
 }
 
 .profile-btn {
+  color: var(--text-color);
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
@@ -191,6 +192,7 @@ section {
 
 
 .profile-btn:hover {
+  color: var(--text-color);
   cursor: pointer;
   /* background-color: #f0f0f0; */
   border: black 0.1rem solid;
